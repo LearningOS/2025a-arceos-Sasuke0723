@@ -75,6 +75,7 @@ log-level-debug = ["axfeat/log-level-debug"]
 log-level-trace = ["axfeat/log-level-trace"]
 
 [dependencies]
+hashbrown = { version = "0.14", default-features = true }
 axfeat = { workspace = true }
 arceos_api = { workspace = true }
 axio = "0.1"
